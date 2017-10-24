@@ -1,6 +1,5 @@
 import copy
-import itertools
-import numpy as np
+
 import tensorflow as tf
 
 def dRNN(cell, inputs, rate, scope='default'):
